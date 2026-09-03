@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0b48a3 0%, #3c49ba 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  text-align: center;
+}
+
+.badge {
+  background: #e8f8f0;
+  color: #00318d;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.calculator-card h2 {
+  color: #2d3748;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #718096;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #220ba3;
+  box-shadow: 0 0 0 3px rgba(11, 163, 96, 0.15);
+}
+
+.btn-calculate {
+  width: 100%;
+  background: linear-gradient(135deg, #0b0da3 0%, #3c5eba 100%);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.btn-calculate:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
